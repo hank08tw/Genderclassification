@@ -1,0 +1,45 @@
+    batch_size = 16  # batch size   
+    use_gpu = True  # user GPU or not
+    num_workers = 4  # how many workers for loading data
+    print_freq = 20  # print info every N batch
+
+    debug_file = '/tmp/debug'  # if os.path.exists(debug_file): enter ipdb
+    result_file = 'result.csv'
+
+    max_epoch = 60
+    lr = 0.001  # initial learning rate
+    lr_decay = 0.5  # when val_loss increase, lr = lr*lr_decay
+    weight_decay = 0e-5  # 损失函数
+
+    accuracy: 93.98148148148148
+
+
+
+    batch_size = 16  # batch size
+    use_gpu = True  # user GPU or not
+    num_workers = 4  # how many workers for loading data
+    print_freq = 20  # print info every N batch
+
+    debug_file = '/tmp/debug'  # if os.path.exists(debug_file): enter ipdb
+    result_file = 'result.csv'
+
+    max_epoch = 100
+    lr = 0.001  # initial learning rate
+    lr_decay = 0.55  # when val_loss increase, lr = lr*lr_decay
+    weight_decay = 0e-5  # 损失函数
+    accuracy: 94.35185185185185
+
+
+    batch_size = 16  # batch size
+    use_gpu = True  # user GPU or not
+    num_workers = 4  # how many workers for loading data
+    print_freq = 20  # print info every N batch
+
+    debug_file = '/tmp/debug'  # if os.path.exists(debug_file): enter ipdb
+    result_file = 'result.csv'
+
+    max_epoch = 150
+    lr = 0.001  # initial learning rate
+    lr_decay = 0.55  # when val_loss increase, lr = lr*lr_decay
+    weight_decay = 0e-5  # 损失函数
+     accuracy: 94.62962962962963

@@ -1,0 +1,12 @@
+# 训练模型
+python main.py train --train-data-root=data/train/ --lr=0.005 --batch-size=32 --model='ResNet34'  --max-epoch = 20
+
+# 测试模型
+python main.py test --test-data-root=data/test1 --load-model-path='checkpoints/resnet34_0822_06:38:22.pth' --batch-size=16 --model='ResNet34' --num-workers=4
+
+
+#可视化结果
+python main.py Visualize --visualize-data-root=data/visualize --load-model-path='checkpoints/resnet34_0822_06:38:22.pth' --batch-size=4 --model='ResNet34' --num-workers=4
+
+visidom启动：
+python -m visdom.server
